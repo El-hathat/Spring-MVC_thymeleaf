@@ -1,6 +1,6 @@
 # Gestion des Patients avec Spring MVC et Thymeleaf
 
-![Démonstration de l'application](./img.png)
+![Démonstration de l'application](img.png)
 
 ## Description
 
