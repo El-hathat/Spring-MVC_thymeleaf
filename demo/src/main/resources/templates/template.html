@@ -1,0 +1,24 @@
+<!-- src/main/resources/templates/template.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title th:text="${title}">Gestion des Patients</title>
+  <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header>
+  <h1>Gestion des Patients</h1>
+  <nav>
+    <a th:href="@{/patients}">Liste des Patients</a>
+    <a th:href="@{/logout}">Se Déconnecter</a>
+  </nav>
+</header>
+<section>
+  <th:block th:replace="~{::content}"></th:block>
+</section>
+<footer>
+  <p>© 2025 - Gestion des Patients</p>
+</footer>
+</body>
+</html>
